@@ -1,5 +1,5 @@
 import Alert from "./components/Alert";
-import ListGroup from "./components/ListGroup";
+
 
 function App() {
   let items = ["New york", "Mumbai", "Berlin", "Istanbul", "Paris"];
@@ -7,10 +7,12 @@ function App() {
     console.log(item);
   }
 
-  return (<div>
-    <ListGroup items= {items} heading = "cities" onSelectItem= {onSelectItem}/>
-    <Alert text ="hello worllld!!!" />
-
+  return (
+  
+    <div>
+   <Alert>
+    <h1>hello world</h1>
+    </Alert>
     </div>
   );
 }
